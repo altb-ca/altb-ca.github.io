@@ -1125,11 +1125,7 @@ h1.style2 a:hover, h2.style2 a:hover, h3.style2 a:hover, p.style2 a:hover {
 	font-family: 'Inter', sans-serif;
 	letter-spacing: -0.025rem;
 	font-weight: 300;
-	border-radius: 0.875rem;
-	-moz-justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-	-ms-justify-content: flex-start;
-	justify-content: flex-start;
+	border-radius: 0.375rem;
 }
 
 .buttons.style1 li a svg {
@@ -1142,29 +1138,8 @@ h1.style2 a:hover, h2.style2 a:hover, h3.style2 a:hover, p.style2 a:hover {
 	min-width: 16px;
 	height: 100%;
 	fill: #FFFFFF;
-	-moz-flex-grow: 0;
-	-webkit-flex-grow: 0;
-	-ms-flex-grow: 0;
-	flex-grow: 0;
-	-moz-flex-shrink: 0;
-	-webkit-flex-shrink: 0;
-	-ms-flex-shrink: 0;
-	flex-shrink: 0;
 	margin-right: calc(0.5em + 0rem);
 	margin-left: -0.125em;
-}
-
-.buttons.style1 li a .label {
-	-moz-flex-grow: 1;
-	-webkit-flex-grow: 1;
-	-ms-flex-grow: 1;
-	flex-grow: 1;
-	-moz-flex-shrink: 1;
-	-webkit-flex-shrink: 1;
-	-ms-flex-shrink: 1;
-	flex-shrink: 1;
-	width: 100%;
-	text-align: right;
 }
 
 .buttons.style1 .button {
@@ -2020,7 +1995,7 @@ h1.style2 a:hover, h2.style2 a:hover, h3.style2 a:hover, p.style2 a:hover {
 	}
 	
 	.buttons.style1 li a {
-		font-size: 2.125em;
+		font-size: 1em;
 	}
 	
 	.list.style1 {
